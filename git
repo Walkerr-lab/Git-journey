@@ -1,0 +1,80 @@
+Cd desktop 
+Mkdir git-one
+Cd git-one
+Type nul > one.txt
+Mkdir myfolder
+Cd myfolder
+Start.
+Git init
+Dir /a
+Cd ../
+
+Cd git-journey
+Git status
+ Git add --all
+Git reset
+Git add *
+ Git add .
+Git add *.txt
+ Git config --global user.email " aashdyejdbdbdjdkdb "
+Git config --global user.name "gggdceehdbdbgg"
+ Git commit -m " I have made some changes to the files"
+ Git rm four.txt
+Git reset --hard
+Git rm -f four.txt
+Git rm --cached four.txt
+Git rm -r
+ Git log
+Git log --oneline
+Git branch
+Git branch development
+ Git checkout development
+Git merge main -m "Merging main into development"
+Git checkout main
+Git merge development -m " merging on main on development"
+Git branch staging 
+Git checkout staging
+Git add .
+Git commit -m "added 444 on four txt "
+Git merge staging
+Git diff 4cedha
+Git push origin main
+git restore
+ git restore --staged
+git stash 
+  git stash pop
+git stash apply   
+ git stash list  
+ git stash drop
+ git revert 
+ git reset
+ rebase
+Cd git-journey 
+Git branch
+Git log --oneline 
+Switch main
+Git push origin main 
+Git fetch
+Git pull
+Git push
+Git merge
+
+
+ Work on myapp  
+cd \learning   
+mkvirtualenv myapp
+pip install django 
+ django-admin startproject myproject
+ python manage.py startapp myapp 
+ python manage.py runserver
+Workon myapp
+Cd  /learning 
+*Dir manage.py /s
+Cd firstproject 
+Python manage.py runserver
+ C:\learning\firstproject>workon myapp
+(myapp) C:\learning\firstproject>python manage.py runserver
+ Ctrl C 
+Python manage.py makemigrations 
+Python manage.py migrate
+
